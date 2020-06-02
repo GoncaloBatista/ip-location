@@ -1,0 +1,73 @@
+.track .ip{
+    position: relative;
+    width: 70%;
+    border: 5px solid var(--color-blue);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.track .ip button{
+    width: 100%;
+    background-color: var(--color-blue);
+    border: 0;
+    color: white;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+}
+
+.track .ip button:hover{
+    background-color: white;
+    color: var(--color-blue);
+    transition: background .3s;
+    cursor: pointer;
+}
+
+.track h2{
+    font-size:1.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.track h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10rem;
+    margin-top: 0.5rem;
+    line-height: 1.3em;
+}
+
+.track p{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: 18rem;
+    margin-top: 0.5rem;
+    line-height: 1.3em;
+}
+
+.track-content{
+    display: flex;
+}
+.imagem{
+    padding-left: 15rem;
+    padding-top: 5rem;
+}
+.imagem img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 769px) {
+    .imagem img{
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .imagem img{
+        width: 50%;
+        height: auto;
+    }
+}

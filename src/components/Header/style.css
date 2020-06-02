@@ -1,0 +1,13 @@
+header{
+    background-color: var(--color-blue);
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    font-size: 3rem;
+    font-weight: normal;
+    padding-bottom: 0.5rem;
+}
